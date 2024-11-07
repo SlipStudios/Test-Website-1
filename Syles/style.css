@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 10000px;
+    background: url("Images/BG2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+.navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    margin-left: 25%;
+    width: 700px;
+    height: 85px;
+    background: rgb(0, 0, 0);
+    border-radius: 80px;
+    z-index: 1000000;
+}
+.navbar .left {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.navbar .left a {
+    padding: 10px;
+    font-size: 27px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.navbar .left a:hover {
+    color: rgb(0, 149, 255);
+}
+.navbar .right {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.navbar .right a {
+    padding: 5px;
+    font-size: 27px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    margin: 10px;
+    transition: 0.3s;
+}
+.navbar .right a:hover {
+    color: white;
+    background: rgb(0, 0, 0);
+    border: 10px solid rgb(0, 0, 0);
+}
+
+
+
+
+.are-mision {
+    width: 100%;
+    height: 4000px;
+    position: absolute;
+    margin-top: 949px;
+    background: yellow;
+}
+.are-mision h1 {
+    position: absolute;
+}
